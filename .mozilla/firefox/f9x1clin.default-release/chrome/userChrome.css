@@ -1,0 +1,8 @@
+//* Hide horizontal tabs at the top of the window */
+#tabbrowser-tabs {
+  visibility: collapse !important;
+  min-height: 0 !important;
+}
+tab {
+  display: none !important;
+}
