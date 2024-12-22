@@ -9,3 +9,6 @@ user_pref("privacy.clearOnShutdown_v2.historyFormDataAndDownloads", false);
 
 user_pref("geo.enabled", false);
 user_pref("browser.shell.checkDefaultBrowser", false);
+
+// Get rid of default tab manager (using tree)
+user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true)
