@@ -9,7 +9,12 @@ return {
 		"williamboman/mason-lspconfig.nvim",
 		config = function()
 			require("mason-lspconfig").setup({
-				ensure_installed = { "lua_ls", "ruby_lsp", "harper_ls", "pyright"}
+				ensure_installed = {
+          "lua_ls",
+          "ruby_lsp",
+          "harper_ls",
+          "pyright",
+        }
 			})
 		end
 	},
