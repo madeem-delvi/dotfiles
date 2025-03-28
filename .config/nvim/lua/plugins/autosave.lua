@@ -2,7 +2,7 @@ return {
   "Pocco81/auto-save.nvim",
   config = function()
        require("auto-save").setup{
-         trigger_events = {"InsertLeave", "TextChanged", "FocusLost"},
+         trigger_events = {"TextChanged", "FocusLost"},
        }
   end,
 }

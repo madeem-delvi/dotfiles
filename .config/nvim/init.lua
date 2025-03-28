@@ -17,5 +17,8 @@ vim.opt.rtp:prepend(lazypath)
 
 -- Personal settings not defined by plugins
 require("settings")
+-- Spelling
+vim.o.spellfile = vim.fn.stdpath('config') .. '/spell/en.utf-8.add'
+vim.o.spell = true
 
 require("lazy").setup("plugins")
